@@ -1,0 +1,13 @@
+[Unit]
+Description=Home ADS-B Viewer
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/home-adsb-stack/viewer
+ExecStart=/opt/home-adsb-stack/viewer/.venv/bin/python app.py
+Restart=always
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target
