@@ -1,7 +1,7 @@
 # Home Flight Data Contributor
-End-to-end ADS-B setup using a Raspberry Pi and RTL-SDR:
+This experiment was built to deepen practical understanding of flight data generation and limitations, beyond consuming aviation APIs as black boxes.
 
-### This experiment was built to deepen practical understanding of flight data generation and limitations, beyond consuming aviation APIs as black boxes.
+## End-to-end ADS-B setup using a Raspberry Pi and RTL-SDR:
 
 - dump1090-mutability (decoder + JSON)
 - Flightradar24 feeder (fr24feed)
