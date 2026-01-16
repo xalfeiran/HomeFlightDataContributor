@@ -90,6 +90,7 @@ Open:
 - MLAT disabled is fine for local visualization
 - Feeder benefits remain active if uptime & data quality are good
 - This stack is safe to run alongside production systems
+- fr24feed may start a 978 MHz (UAT) decoder by default. Outside the US, this process provides no data and can consume 100% CPU. Disabling UAT significantly improves system stability and thermal behavior.
 
 ## Project context & learnings
 
